@@ -3,12 +3,20 @@ Input "SAMPLE SIZE/DF:",D
 Input "SAMPLE VARIANCE:",V
 Disp "INV CHI:"
 Disp solve(1-chi^2cdf(0,X,D)-A,X,0)
-Disp "L 1-SIDE:"
+Disp "L 1-SIDE-VAR:"
 Disp ((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-A,X,0)
-Disp "U 1-SIDE:"
+Disp "L 1-SIDE-STD:"
+Disp (((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-A,X,0))^(1/2)
+Disp "U 1-SIDE-VAR:"
 Disp ((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-(1-A),X,0)
+Disp "U 1-SIDE-STD:"
+Disp (((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-(1-A),X,0))^(1/2)
 Input "ENTER 1 AND PRESS ENTER:",X
-Disp "L 2-SIDE:"
+Disp "L 2-SIDE-VAR:"
 Disp ((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-A/2,X,0)
-Disp "U 2-SIDE:"
+Disp "L 2-SIDE-STD:"
+Disp (((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-A/2,X,0))^(1/2)
+Disp "U 2-SIDE-VAR:"
 Disp ((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-(1-A/2),X,0)
+Disp "U 2-SIDE-STD:"
+Disp (((D-1)V)/solve((1-chi^2cdf(0,X,D-1))-(1-A/2),X,0))^(1/2)
