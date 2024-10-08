@@ -1,4 +1,4 @@
 Input "AREA RIGHT:",A
 Input "SAMPLE SIZE:",N
 Input "SAMPLE VARIANCE:",V
-Disp solve(((N-1)V)/(1-chi^2cdf(0,X,N-1)-(A/2)),X,0)
+Disp ((N-1)V)/solve((1-chi^2cdf(0,X,N-1)-(A/2)),X,0)
