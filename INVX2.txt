@@ -1,0 +1,3 @@
+Input "AREA RIGHT:",A
+Input "DF:",D
+Disp solve(1-chi^2cdf(0,X,D)-A,X,0)
