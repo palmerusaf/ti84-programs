@@ -1,0 +1,4 @@
+Input "AREA RIGHT:",A
+Input "SAMPLE SIZE/DF:",D
+Disp "INV CHI:"
+solve(1-chi^2cdf(0,X,D)-A,X,0)
