@@ -1,6 +1,0 @@
-Disp "SAMPLE SIZE FOR SPEC ERR"
-Input "ENTER E:",E
-Input "ENTER STD DEV:",D
-Input "ENTER ALPHA:",A
-Disp "N EQUALS:"
-((invNorm(A/2,0,1,RIGHT)D)/E)

@@ -1,3 +1,0 @@
-Disp "ENTER NUM FOR A"
-Input "X-Asigma/sqrt(N) <= M <= X+Asigma/sqrt(n):",A
-(1-2normalcdf(A,1|E99,0,1))100
