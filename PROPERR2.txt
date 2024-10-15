@@ -1,0 +1,4 @@
+Input "ENTER PROBLEM CI IE DOT99:",C
+Input "ENTER P:",P
+Disp "N:"
+((invNorm((1-C)/2,0,1,RIGHT)/P)^2)(.25)
