@@ -1,0 +1,5 @@
+Input "ENTER PROBLEM CI IE DOT99:",C
+Input "ENTER P:",P
+Input "ENTER P HAT:",H
+Disp "N:"
+((invNorm((1-C)/2,0,1,RIGHT)/P)^2)H(1-H)
