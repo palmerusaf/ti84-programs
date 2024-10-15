@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-./tok8x -o $1.8Xp -n $1 $1'.txt'
+f=$(basename -- "$1" .txt)
+./tok8x -o $f.8Xp -n $f $f'.txt'
