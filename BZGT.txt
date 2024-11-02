@@ -1,7 +1,0 @@
-Input "ENTER HYPO MEAN: ",H
-Input "ENTER TRUE MEAN: ",T
-Input "ENTER N: ",N
-Input "ENTER ALPHA: ",A
-Input "ENTER STD DIV: ",D
-Disp "B EQUALS: "
-normalcdf(-1E99,(invNorm(A,0,1,right)-(T-H)N^(1/2)/D),0,1)
