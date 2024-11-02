@@ -1,0 +1,6 @@
+Input "ENTER HYPO PROP: ",H
+Input "ENTER TRUE PROP: ",T
+Input "ENTER ALPHA(A/2 FOR 2 SIDE): ",A
+Input "ENTER BETA: ",B
+Disp "SAMPLE SIZE N(ROUND UP):"
+((invNorm(A,0,1,r)((H(1-H))^(1/2))+invNorm(B,0,1,r)((T(1-T))^(1/2)))/(T-H))^2
