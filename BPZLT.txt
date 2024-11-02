@@ -1,0 +1,6 @@
+Input "ENTER HYPO PROP: ",H
+Input "ENTER TRUE PROP: ",T
+Input "ENTER N: ",N
+Input "ENTER ALPHA: ",A
+Disp "B EQUALS: "
+1-normalcdf(-1E99,((T-H-invNorm(A,0,1,right)(H(1-H)/N)^(1/2))/((T(1-T)/N)^(1/2))),0,1)
