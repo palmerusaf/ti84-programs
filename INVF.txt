@@ -1,0 +1,5 @@
+Input "AREA RIGHT:",A
+Input "D1:",N
+Input "D2:",D
+Disp "INV F:"
+solve(1-Fcdf(0,X,N,D)-A,X,0)
